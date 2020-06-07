@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="areas">
+                <div class="area">
+                    <div class="area">
+                        <span id="contador1" class="contador" >0</span>
+                        <span>contador</span>
+                        <input id="sync1" type="button" value="sincrono"/>
+                        <input id="async1" type="button" value="assincrono"/>
+                    </div>
+                </div>
+                <div class="area">
+                    <div class="area">
+                        <span id="contador2" class="contador" >0</span>
+                        <span>contador</span>
+                        <input id="sync2" type="button" value="sincrono"/>
+                        <input id="async2" type="button" value="assincrono"/>
+                    </div>
+                </div>
+                <div class="area">
+                    <div class="area">
+                        <span id="contador3" class="contador" >0</span>
+                        <span>contador</span>
+                        <input id="sync3" type="button" value="sincrono"/>
+                        <input id="async3" type="button" value="assincrono"/>
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="Faz nada"/>
+            <input id="promise-all" type="button" value="Promise All"/>
+            <input id="promise-race" type="button" value="Promise Race"/>
+            <span id="test" />
+        </div>
+    </body>
+    <script src="loop.js"></script>
+    <script src="delay.js"></script>
+    <script src="index.js"></script>
+    
+    
+</html>

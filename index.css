@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.areas {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+span {
+    text-align: center;
+}
+
+.contador {
+    font-size: 48px;
+}
+
+div, input {
+    margin: 2px
+}
+
